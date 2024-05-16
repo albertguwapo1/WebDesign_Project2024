@@ -1,0 +1,170 @@
+<html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Albert Perfumes </title>
+      <link rel="stylesheet" href="style.css">
+     
+      
+      <!--boxicons link-->
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+      
+      <!--google fonts link-->
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+     <header>
+     <a href="#" class="logo">A. <span>Perfumes</span></a>
+     
+      <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Contact Us</a></li>
+      </ul>
+     
+      <div class="h-right">
+        <a href="#" id="cart-link">
+            <i class='bx bx-cart'></i>
+            <span id="cart-count"></span>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+     </header>
+
+     <section class="tour">
+           <div class="center-text">
+              <h2>Our fragrances!</h2>
+           </div>
+           
+           <div class="tour-content">
+             <div class="box">
+                <img src="aqua.jpg" width="100" height="100">
+                <h6>Giorgo Armani</h6>
+                <h4>Aqua De Gio</h4>
+                <p>₱ 1,299</p>
+                <button class="add-to-cart" data-product="Aqua De Gio">Add to Cart</button>
+           </div>
+           
+           <div class="box">
+                <img src="azzaro.jpg">
+                <h6> Azzaro </h6>
+                <h4>The Most Wanted</h4>
+                <p>₱ 5,990</p>
+                <button class="add-to-cart" data-product="The Most Wanted">Add to Cart</button>
+           </div>
+           
+           
+           </section>
+
+           <div class="tour-content">
+            <div class="box">
+               <img src="bulgari.jpg">
+               <h6> Bulgari </h6>
+               <h4>In Black</h4>
+               <p>₱ 7,300</p>
+               <button class="add-to-cart" data-product="In Black">Add to Cart</button>
+               
+               
+          </div>
+          
+          <div class="box">
+               <img src="DG.jpg">
+               <h6> Dolce & Gabbana </h6>
+               <h4>Light Blue</h4>
+               <p>₱ 4,695</p>
+               <button class="add-to-cart" data-product="Light Blue">Add to Cart</button>
+          </div>
+          
+          <div class="box">
+               <img src="dior.jpg">
+               <h6> Dior </h6>
+               <h4> Dior Sauvage</h4>
+               <p>₱ 9,810</p>
+               <button class="add-to-cart" data-product="Dior Sauvage">Add to Cart</button>
+          </div>
+
+          <div class="box">
+            <img src="eau.jpg">
+            <h6> Versace </h6>
+            <h4> Eau Fraiche</h4>
+            <p>₱ 4,788 </p>
+            <button class="add-to-cart" data-product="Versace Eau Fraiche">Add to Cart</button>
+            
+       </div>
+       
+       <div class="box">
+            <img src="LeMale.jpg">
+            <h6> Jean Paul Gaultier</h6>
+            <h4> "Le Male" </h4>
+            <p>₱ 7,200 </p>
+            <button class="add-to-cart" data-product="JPG Le Male">Add to Cart</button>
+       </div>
+       
+       <div class="box">
+            <img src="polo.jpg">
+            <h6> Ralph Lauren</h6>
+            <h4>Polo Black</h4>
+            <p>₱ 6,890 </p>
+            <button class="add-to-cart" data-product="Polo Black">Add to Cart</button>
+       </div>
+
+       <div class="box">
+        <img src="spice.jpg">
+        <h6> Viktor & Rolf </h6>
+        <h4>Spicebomb</h4>
+        <p>₱ 7,200</p>
+        <button class="add-to-cart" data-product="Spicebomb">Add to Cart</button>
+   </div>
+   
+   <div class="box">
+        <img src="Black.jpg">
+        <h6> Yves Saint Laurent </h6>
+        <h4>Black Opium</h4>
+        <p>₱ 4,809</p>
+        <button class="add-to-cart" data-product="Black Opium">Add to Cart</button>
+   </div>
+
+   <div class="box">
+    <img src="ysl.jpg">
+    <h6> Yves Saint Laurent </h6>
+    <h4> MYSLF </h4>
+    <p>₱ 8,559</p>
+    <button class="add-to-cart" data-product="MYSLF">Add to Cart</button>
+</div>
+
+<div class="box">
+    <img src="1million.jpg">
+    <h6> Paco Rabbana  </h6>
+    <h4> 1 Million </h4>
+    <p>₱ 4,799</p>
+    <button class="add-to-cart" data-product="1 Million">Add to Cart</button>
+</div>
+
+<div class="cart-overlay" id="cart-overlay">
+    <div class="cart-content">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: ₱ 0.00</p>
+        <a href="checkout.html">
+            <button id="checkout-btn" class="add-to-cart" data-product="Checkout">Checkout</button>
+          </a>
+        
+    </div>
+</div>
+
+
+<script src="main.js" ></script>
+
+</body>
+</html>        
+
+
+

@@ -1,0 +1,81 @@
+<html>
+<head>
+      <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Albert Perfumes </title>
+      <link rel="stylesheet" href="style.css">
+	 
+	  
+	  <!--boxicons link-->
+	  <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	  
+	  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+	  
+	  <!--google fonts link-->
+	  
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+	 <header>
+	 <a href="#" class="logo">A. <span>Perfumes</span></a>
+     
+	  <ul class="navbar">
+	      <li><a href="index.html">Home</a></li>
+		  <li><a href="products.html">Products</a></li>
+		  <li><a href="index.html">About Us</a></li>
+		  <li><a href="index.html">Contact Us</a></li>
+	  </ul>
+	 
+	  <div class="h-right">
+
+        <a href="#"><i class='bx bx-cart' ></i></a> <div class="h-right">
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+           <div class="bx bx-menu" id="menu-icon"></div>
+         </div>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	  </div>
+	 </header>
+
+	
+	<section class="tour">
+		<div class="center-text">
+			<h2>Check Out Time!</h2>
+		</div>
+		<div class="checkout-form">
+			<form>
+				<table>
+					<tr>
+						<td><label for="fname" aria-label="Full Name">Full Name:</label></td>
+						<td><input type="text" id="fname" name="fname" required></td>
+					</tr>
+					<tr>
+						<td><label for="email" aria-label="Email">Email:</label></td>
+						<td><input type="email" id="email" name="email" required></td>
+					</tr>
+					<tr>
+						<td><label for="address" aria-label="Address">Address:</label></td>
+						<td><textarea id="address" name="address" required></textarea></td>
+					</tr>
+					<tr>
+						<td><label for="payment-method" aria-label="Payment Method">Payment Method:</label></td>
+						<td>
+							<select id="payment-method" name="payment-method" required>
+								<option value="credit-card">Credit Card</option>
+								<option value="debit-card">Debit Card</option>
+								<option value="paypal">PayPal</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Checkout"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	
